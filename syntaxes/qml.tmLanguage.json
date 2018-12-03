@@ -141,7 +141,7 @@
 		},
 		{
 			"name": "markup.changed.qml",
-			"match": "\\b(alias)\\b"
+			"match": "\\b(alias)\\b|\\b(signal)\\b"
 		},
 		{
 			"Kommentar": "QML Usertypen",

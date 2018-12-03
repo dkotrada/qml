@@ -67,8 +67,6 @@ MyUserType {
     
 }
 
-MyUserType 
-
 // QML Coding Convetions http://doc.qt.io/qt-5/qml-codingconventions.html
 Rectangle {
     id: photo                                               // id on the first line makes it easy to find an object
