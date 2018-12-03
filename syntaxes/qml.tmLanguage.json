@@ -11,156 +11,108 @@
 			"include": "#strings"
 		},
 		{
+		"name": "keyword.qml",
+		"match": "\\b(fkeyword)\\b"
+		},
+		{
       "name": "keyword.import.qml",
-      "match": "Abstract3DSeries"
+      "match": "\\b(fkeyword.import)\\b"
 		},
 		{
       "name": "comment.qml",
-      "match": "AbstractActionInput"
+      "match": "\\b(fcomment)\\b"
 		},
 		{
       "name": "comment.block.qml",
-      "match": "AbstractAnimation"
+      "match": "\\b(fcomment.block)\\b"
 		},
 		{
       "name": "comment.block.documentation.qml",
-      "match": "AbstractAxis"
+      "match": "\\b(fcomment.block.documentation)\\b"
 		},
 		{
       "name": "comment.line.qml",
-      "match": "AbstractAxis3D"
+      "match": "\\b(fcomment.line|true|false)\\b"
 		},
 		{
       "name": "comment.line.double-slash.qml",
-      "match": "AbstractAxisInput"
+      "match": "\\b(fcomment.line.double-slash)\\b"
 		},
 		{
       "name": "constant.character.qml",
-      "match": "AbstractBarSeries|constant.character"
+      "match": "\\b(fconstant.character)\\b"
 		},
 		{
       "name": "entity.other.attribute-name.qml",
-      "match": "AbstractButton"
-		},
-		{
-      "name": "keyword.qml",
-			"match": "AbstractClipAnimator"
-		},
-		{
-      "name": "keyword.control.qml",
-      "match": "AbstractClipBlendNode"
-		},
-		{
-      "name": "keyword.control.less.qml",
-      "match": "AbstractDataProxy"
-		},
-		{
-      "name": "keyword.operator.qml",
-      "match": "AbstractGraph3D"
-		},
-		{
-      "name": "keyword.operator.new.qml",
-      "match": "AbstractInputHandler3D"
-		},
-		{
-      "name": "keyword.other.qml",
-      "match": "AbstractPhysicalDevice"
-		},
-		{
-      "name": "keyword.other.unit.qml",
-      "match": "AbstractRayCaster"
+      "match": "\\b(fentity.other.attribute-name)\\b"
 		},
 		{
       "name": "markup.bold.qml",
-      "match": "AbstractSeries"
+      "match": "\\b(fmarkup.bold)\\b"
 		},
 		{
       "name": "markup.changed.qml",
-      "match": "AbstractSkeleton"
+      "match": "\\b(fmarkup.changed)\\b"
 		},
 		{
       "name": "markup.deleted.qml",
-      "match": "AbstractTextureImage"
+      "match": "\\b(fmarkup.deleted)\\b"
 		},
 		{
       "name": "markup.heading.qml",
-      "match": "Accelerometer"
+      "match": "\\b(fmarkup.heading)\\b"
 		},
 		{
       "name": "markup.inline.raw.qml",
-      "match": "AccelerometerReading"
+      "match": "\\b(fmarkup.inline.raw)\\b"
 		},
 		{
       "name": "markup.inserted.qml",
-      "match": "Accessible"
+      "match": "\\b(fmarkup.inserted)\\b"
 		},
 		{
       "name": "markup.italic.qml",
-      "match": "Action"
+      "match": "\\b(markup.italic)\\b"
 		},
 		{
       "name": "markup.list.qml",
-      "match": "ActionGroup"
+      "match": "\\b(fmarkup.list|property)\\b"
 		},
 		{
       "name": "markup.list.numbered.qml",
-      "match": "ActionInput"
+      "match": "\\b(fmarkup.list.numbered)\\b"
 		},
 		{
       "name": "markup.list.unnumbered.qml",
-      "match": "AdditiveClipBlend"
+      "match": "\\b(fmarkup.list.unnumbered)\\b"
 		},
 		{
       "name": "markup.quote.qml",
-      "match": "Address"
+      "match": "\\b(fmarkup.quote)\\b"
 		},
 		{
       "name": "storage.qml",
-      "match": "Affector"
+      "match": "\\b(fstorage)\\b"
 		},
 		{
       "name": "storage.modifier.qml",
-      "match": "Age"
+      "match": "\\b(fmodifier)\\b"
 		},
 		{
       "name": "storage.type.qml",
-      "match": "AlphaCoverage"
+      "match": "\\b(fstorage.type)\\b"
 		},
 		{
       "name": "string.qml",
-      "match": "AlphaTest"
+      "match": "\\b(fstring)\\b"
 		},
 		{
-      "name": "string.interpolated.qml",
-      "match": "Altimeter"
-		},
-		{
-      "name": "string.other.qml",
-      "match": "AltimeterReading"
-		},
-		{
-      "name": "string.quoted.qml",
-      "match": "AmbientLightReading"
-		},
-		{
-      "name": "string.quoted.double.qml",
-      "match": "AmbientLightSensor"
-		},
-		{
-      "name": "string.quoted.single.qml",
-      "match": "AmbientTemperatureReading"
-		},
-		{
-      "name": "string.regexp.qml",
-      "match": "AmbientTemperatureSensor"
+			"name": "string.quoted.double.qml",
+			"match": "\\b(fstring.quoted.double)\\b"
 		},
 		{
       "name": "variable.language.qml",
-      "match": "AnalogAxisInput"
-		},
-		{
-      "name": "variable.parameter.qml",
-      "match": "AnchorAnimation"
+      "match": "\\b(fvariable.language|console)\\b"
 		},
 		{
 			"Kommentar": "----START A->S -----QML Standart Objekte -------",
@@ -187,7 +139,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.qml",
-				"match": "if|while|for|return"
+				"match": "\\b(if|while|for|return)\\b"
       	}]
 		},
 		"strings": {
