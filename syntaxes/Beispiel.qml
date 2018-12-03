@@ -1,5 +1,6 @@
 // File listet alle QML Typen auf
 import QtQuick.Window 1.2
+import QtQuick.Rectangle 3.4
 
 Item {
 
@@ -44,8 +45,8 @@ fcomment.line
 fcomment.line.double-slash
 fconstant.character
 fentity.other.attribute-name
-fmarkup.bold
-fmarkup.changed
+fmarkup.bold - für QML Standart Objekte
+fmarkup.changed - für QML User Objekte
 fmarkup.deleted
 fmarkup.heading
 fmarkup.inline.raw
@@ -69,6 +70,7 @@ Rectangle {
 
     property bool thumbnail: false                          // property declarations
     property alias image: photoImage.source
+    property var somewar:
 
     signal clicked                                          // signal declarations
 
@@ -160,14 +162,13 @@ Rectangle {
         
     }
     AbstractPhysicalDevice {
-        // keyword.other.qml - für QML User Objekte
         
     }
     AbstractRayCaster {
         
     }
     AbstractSeries {
-        // markup.bold.qml - für QML Standart Objekte
+
     }
     AbstractSkeleton {
         
