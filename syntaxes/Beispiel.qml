@@ -63,6 +63,11 @@ fstring
 fstring.quoted.double
 fvariable.language
 
+MyUserType {
+    
+}
+
+MyUserType 
 
 // QML Coding Convetions http://doc.qt.io/qt-5/qml-codingconventions.html
 Rectangle {

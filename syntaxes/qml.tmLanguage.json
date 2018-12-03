@@ -144,6 +144,13 @@
 			"match": "\\b(alias)\\b"
 		},
 		{
+			"Kommentar": "QML Usertypen",
+			"name": "markup.changed.qml",
+			"match": "\\w+(?={|{ | {| { \\b)"
+		},
+
+		
+		{
       "name": "qml",
       "match": ""
 		}
