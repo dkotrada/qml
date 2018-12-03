@@ -1,14 +1,16 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+
 	"name": "QML",
+
 	"patterns": [
 		{
 			"include": "#keywords"
 		},
 		{
 			"include": "#strings"
-    },
-    {
+		},
+		{
       "name": "keyword.import.qml",
       "match": "Abstract3DSeries"
 		},
@@ -186,19 +188,17 @@
 			"patterns": [{
 				"name": "keyword.control.qml",
 				"match": "if|while|for|return"
-      }]
+      	}]
 		},
 		"strings": {
 			"name": "string.quoted.double.qml",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.qml",
-					"match": "\\\\."
-				}
-			]
-    }
+			"patterns": [{
+				"name": "constant.character.escape.qml",
+				"match": "\\\\."
+			}]
+    	}
 	},
 	"scopeName": "source.qml"
 }
