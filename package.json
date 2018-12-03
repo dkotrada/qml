@@ -1,0 +1,52 @@
+{
+    "name": "cutetee",
+    "displayName": "QML",
+    "version": "0.0.1",
+    "publisher": "cutetee",
+    "description": "Cute IDE - QML highlighting, snippets & ...",
+    "author": {
+        "name": "Cutetee IT"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "icon": "images/cutetee_buddy.png",
+    "galleryBanner": {
+        "color": "#FFFFFF",
+        "theme": "light"
+    },
+    "activationEvents": [
+        "onLanguage:qml"
+    ],
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+
+    "Kommentar": "Es fehlen main, scripts, devDependencies",
+
+    "license": "Apache License 2.0",
+    "bugs": {
+        "url": "https://github.com/dkotrada/cuteqml/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dkotrada/cuteqml"
+    },
+
+    "homepage": "https://cutetee.it",
+
+
+    "contributes": {
+        "languages": [{
+            "id": "qml",
+            "aliases": ["QML", "qml"],
+            "extensions": [".qml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "qml",
+            "scopeName": "source.qml",
+            "path": "./syntaxes/qml.tmLanguage.json"
+        }]
+    }
+}
