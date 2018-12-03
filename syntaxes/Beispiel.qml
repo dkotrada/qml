@@ -5,11 +5,11 @@ import QtQuick.Rectangle 3.4
 Item {
 
 // Standarttypen Alphabetisch sortiert 
-bool
+bool - type
 color
-coordinate
+coordinate - keyword
 date
-double
+double - type
 enumeration
 font
 geocircle
@@ -17,19 +17,19 @@ geopath
 geopolygon
 georectangle
 geoshape
-int
+int - type
 list
 matrix4x4
 mediaplayer-qml-dynamic
 palette
 point
 quaternion
-real
+real - type
 rect
 size
-string
+string - type
 url
-var
+var - type
 variant
 vector2d
 vector3d
