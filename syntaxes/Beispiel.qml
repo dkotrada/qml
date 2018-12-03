@@ -34,19 +34,93 @@ vector2d
 vector3d
 vector4d
 
-// A
+// Words Highlighted Beispiele API
+fkeyword
+fkeyword.import
+fcomment
+fcomment.block
+fcomment.block.documentation
+fcomment.line
+fcomment.line.double-slash
+fconstant.character
+fentity.other.attribute-name
+fmarkup.bold
+fmarkup.changed
+fmarkup.deleted
+fmarkup.heading
+fmarkup.inline.raw
+fmarkup.inserted
+fmarkup.italic
+fmarkup.list
+fmarkup.list.numbered
+fmarkup.list.unnumbered
+fmarkup.quote
+fstorage
+fstoragemodifier
+fstorage.type
+fstring
+fstring.quoted.double
+fvariable.language
 
+
+// QML Coding Convetions http://doc.qt.io/qt-5/qml-codingconventions.html
+Rectangle {
+    id: photo                                               // id on the first line makes it easy to find an object
+
+    property bool thumbnail: false                          // property declarations
+    property alias image: photoImage.source
+
+    signal clicked                                          // signal declarations
+
+    function doSomething(x)                                 // javascript functions
+    {
+        return x + photoImage.width
+    }
+
+    color: "gray"                                           // object properties
+    x: 20                                                   // try to group related properties together
+    y: 20
+    height: 150
+    width: {                                                // large bindings
+        if (photoImage.width > 200) {
+            photoImage.width;
+        } else {
+            200;
+        }
+    }
+
+    Rectangle {                                             // child objects
+        id: border
+        anchors.centerIn: parent; color: "white"
+
+        Image {
+            id: photoImage
+            anchors.centerIn: parent
+        }
+    }
+
+    states: State {                                         // states
+        name: "selected"
+        PropertyChanges { target: border; color: "red" }
+    }
+
+    transitions: Transition {                               // transitions
+        from: ""
+        to: "selected"
+        ColorAnimation { target: border; duration: 200 }
+    }
+}
+
+
+// A 
     Abstract3DSeries {
-        string: "String Quoted Double\n"
+        property string doublequotedstring: "String Quoted Double\n"
 
-        if(true || false) {
-            return 0
-        }
-        while(false){
-            console.log("Hello\n")
-        }
-        for() {
-
+        if( true ) { 
+            while( false ){
+                console.log("Hello\n")
+                console.log("Hello World")
+            }
         }
     }
     AbstractActionInput {
@@ -1004,32 +1078,7 @@ vector4d
         
     }
     Item {
-        property int counter
-        property real area: 100.45
-        property bool yesno: true 
-        property color seroburomalino: "black"
-        property coordinate whereiam: QtPositioning.coordinate(-27.5, 153.1)
-        property double number: 32155.2355
-        property date mydate: "2020-12-31"
-        property enumeration myenume: 2
-        property string mystring: "String Value"
-        property variant region: QtPositioning.circle(QtPositioning.coordinate(-27.5, 153.1), 1000)
-        property list mylist: ["hello", "world"]
-        property url myurl: "bild.jpg"
-        property var aNumber: 100
-        property var aBool: false
-        property var aString: "Hello world!"
-        property var anotherString: String("#FF008800")
-        property var aColor: Qt.rgba(0.2, 0.3, 0.4, 0.5)
-        property var aRect: Qt.rect(10, 10, 10, 10)
-        property var aPoint: Qt.point(10, 10)
-        property var aSize: Qt.size(10, 10)
-        property var aVector3d: Qt.vector3d(100, 100, 100)
-        property var anArray: [1, 2, 3, "four", "five", (function() { return "six"; })]
-        property var anObject: { "foo": 10, "bar": 20 }
-        property var aFunction: (function() { return "one"; })
-        property variant items: [1, 2, 3, "four", "five"]
-        property variant attributes: { 'color': 'red', 'width': 100 }
+
     }
     ItemDelegate {
         
