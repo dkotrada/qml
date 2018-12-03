@@ -15,26 +15,18 @@
         "color": "#FFFFFF",
         "theme": "light"
     },
-    "activationEvents": [
-        "onLanguage:qml"
-    ],
     "engines": {
         "vscode": "^1.29.0"
     },
-
-    "Kommentar": "Es fehlen main, scripts, devDependencies",
-
     "license": "Apache License 2.0",
     "bugs": {
-        "url": "https://github.com/dkotrada/cuteqml/issues"
+        "url": "https://github.com/cutetee/qml/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dkotrada/cuteqml"
+        "url": "https://github.com/cutetee/qml"
     },
-
     "homepage": "https://cutetee.it",
-
 
     "contributes": {
         "languages": [{
