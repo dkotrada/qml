@@ -91,7 +91,7 @@ Rectangle {
             photoImage.width;
         } else {
             200;
-        }
+        }121212122222
     }
 
     Rectangle {                                             // child objects
