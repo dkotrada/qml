@@ -1,6 +1,8 @@
 // File listet alle QML Typen auf
 import QtQuick.Window 1.2
 import QtQuick.Rectangle 3.4
+import "content.js" as Content
+
 
 Item {
 
@@ -63,7 +65,7 @@ fstring
 fstring.quoted.double
 fvariable.language
 
-MyUserType {
+UserTypeColor {
     
 }
 
