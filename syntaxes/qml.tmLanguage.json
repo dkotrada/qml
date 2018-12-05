@@ -150,7 +150,7 @@
 		},
 		{
 			"name": "comment.qml",
-			"match": "(//[\\t|\\s|\\w|\\d|\\.]*[\\r\\n|\\n])"
+			"match": "(//[\\t|\\s|\\w|\\d|\\.]*[\\r\\n|\\n])|([\\s|\\t]*/\\*[\\t|\\s|\\w|\\W|\\d|\\.|\\r|\\n]*\\*/)"
 		},
 		{
 			"Kommentar": "QML Usertypen",
