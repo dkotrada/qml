@@ -149,6 +149,10 @@
 			"match": "\\b(alias)\\b|\\b(signal)\\b"
 		},
 		{
+			"name": "comment.qml",
+			"match": "(//[\\t|\\s|\\w|\\d|\\.]*[\\r\\n|\\n])"
+		},
+		{
 			"Kommentar": "QML Usertypen",
 			"name": "markup.changed.qml",
 			"match": "\\w+(?={|{ | {| { \\b)"
