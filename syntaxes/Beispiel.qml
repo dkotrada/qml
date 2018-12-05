@@ -1,79 +1,13 @@
 // File listet alle QML Typen auf
 import QtQuick.Window 1.2
-import QtQuick.Rectangle 3.4
 import "content.js" as Content
 
 
 Item {
 
-// Standarttypen Alphabetisch sortiert 
-bool - type
-color
-coordinate - keyword
-date
-double - type
-enumeration
-font
-geocircle
-geopath
-geopolygon
-georectangle
-geoshape
-int - type
-list
-matrix4x4
-mediaplayer-qml-dynamic
-palette
-point
-quaternion
-real - type
-rect
-size
-string - type
-url
-var - type
-variant
-vector2d
-vector3d
-vector4d
-
-// Words Highlighted Beispiele API
-fkeyword
-fkeyword.import
-fcomment
-fcomment.block
-fcomment.block.documentation
-fcomment.line
-fcomment.line.double-slash
-fconstant.character
-fentity.other.attribute-name
-fmarkup.bold - für QML Standart Objekte
-fmarkup.changed - für QML User Objekte
-fmarkup.deleted
-fmarkup.heading
-fmarkup.inline.raw
-fmarkup.inserted
-fmarkup.italic
-fmarkup.list
-fmarkup.list.numbered
-fmarkup.list.unnumbered
-fmarkup.quote
-fstorage
-fstoragemodifier
-fstorage.type
-fstring
-fstring.quoted.double
-fvariable.language
-
-UserTypeColor {
-    /* Komment
-    
-    */
-}
-
-// QML Coding Convetions http://doc.qt.io/qt-5/qml-codingconventions.html
+// QML Coding Convetions https
 Rectangle {
-    id: photo                                               // id on the first line makes it easy to find an object
+    id: photo                                       // id on the first line makes it easy to find an object
 
     property bool thumbnail: false                          // property declarations
     property alias image: photoImage.source
