@@ -66,7 +66,9 @@ fstring.quoted.double
 fvariable.language
 
 UserTypeColor {
+    /* Komment
     
+    */
 }
 
 // QML Coding Convetions http://doc.qt.io/qt-5/qml-codingconventions.html
