@@ -4,4 +4,4 @@
 
 **Support development of Cute IDE on [Patreon](https://www.patreon.com/cutetee).**
 
-<img width="300" src="https://raw.githubusercontent.com/cutetee/qml/master/images/solarized_dark.png" /> | img
+<img width="300" src="https://raw.githubusercontent.com/cutetee/qml/master/images/solarized_dark.png" /> | <img width="300" src="https://github.com/cutetee/qml/raw/master/images/solarized.png" /> | <img width="300" src="https://github.com/cutetee/qml/raw/master/images/solarized_dark.png" />
