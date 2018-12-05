@@ -5,19 +5,19 @@ import "content.js" as Content
 
 Item {
 
-// QML Coding Convetions https
+// QML Coding Convetions https://helloworld.com
 Rectangle {
     id: photo                                       // id on the first line makes it easy to find an object
 
     property bool thumbnail: false                          // property declarations
-    property alias image: photoImage.source
+    property alias image: photoImage.source 
     property var somewar:
 
     signal clicked                                          // signal declarations
 
     function doSomething(x)                                 // javascript functions
     {
-        return x + photoImage.width
+                return x + photoImage.width
     }
 
     color: "gray"                                           // object properties
