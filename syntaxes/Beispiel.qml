@@ -54,7 +54,6 @@ Rectangle {
     }
 }
 
-
 // A 
     Abstract3DSeries {
         property string doublequotedstring: "String Quoted Double\n"
