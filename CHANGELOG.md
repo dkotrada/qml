@@ -1,7 +1,12 @@
 # Change Log
 All notable changes to the "cuteqml" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 - Initial release
+
+## [1.1.0] - 2018-12-6
+### Changed
+- Namechange from cutetee to qml
+
+### Added
+### Removed
