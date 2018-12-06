@@ -5,7 +5,7 @@
 **Support development of Cute IDE on [Patreon](https://www.patreon.com/cutetee/overview).**
 
 
-<img src="https://github.com/cutetee/qml/raw/master/images/monokai_dimmed.png" />
+<img src="https://github.com/cutetee/qml/raw/master/images/monokai_dimmed_header.png" />
 
 - [**Solarized Dark**](https://raw.githubusercontent.com/cutetee/qml/master/images/solarized_dark.png)
 - [**Solarized Light**](https://github.com/cutetee/qml/raw/master/images/solarized.png)
