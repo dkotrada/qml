@@ -2,7 +2,7 @@
 
 ## Part of [Cute IDE](https://www.cutetee.it) Project
 
-**Support development of Cute IDE on [Patreon](https://www.patreon.com/cutetee).**
+**Support development of Cute IDE on [Patreon](https://www.patreon.com/cutetee/overview).**
 
 - [**Solarized dark**](https://raw.githubusercontent.com/cutetee/qml/master/images/solarized_dark.png)
 - [**Solarized light**](https://github.com/cutetee/qml/raw/master/images/solarized.png)
