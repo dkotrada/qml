@@ -1,7 +1,7 @@
 {
     "name": "qml",
     "displayName": "QML",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "publisher": "cutetee",
     "description": "Cute IDE - QML highlighting",
     "author": {
